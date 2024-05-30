@@ -37,7 +37,7 @@ function addTodo(event) {
   
     todoList.appendChild(todoDiv);
     todoInput.value = "";
-  }
+}
   
 
 function deleteCheck(e) {
@@ -84,7 +84,7 @@ function filterTodo() {
         }
       }
     });
-  }
+}
   
 
 function saveLocalTodos(todo) {
